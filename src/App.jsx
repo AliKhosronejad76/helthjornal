@@ -3,8 +3,10 @@ import Router from "./components/router/Router"
 import { BrowserRouter } from "react-router-dom"
 
 
-function App() {
-    return (
+
+
+export default function App(){
+    return(
       <>
         <BrowserRouter>
           <Layout>
@@ -13,11 +15,10 @@ function App() {
             </div>
           </Layout>
         </BrowserRouter>
-      
-      </>
-      
-          
-  )
-}
+    </>
+    )
+} 
 
-export default App
+
+
+
