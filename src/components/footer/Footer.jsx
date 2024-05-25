@@ -12,7 +12,7 @@ export default function Footer(){
                     <Social/>
                 </div>
 
-                <div className="bg-[#404040] text-white text-sm rounded-lg py-3 px-10  md:px-2 flex items-center justify-start">
+                <div className="bg-[#404040] text-white text-sm rounded-lg py-3 px-1   md:px-2 flex items-center justify-start">
                     <span>
                     © کپی‌رایت 2023 لیمومی. کلیه حقوق وب سایت محفوظ می باشد.
                     </span>
