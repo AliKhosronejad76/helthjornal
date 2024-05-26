@@ -18,3 +18,11 @@ a {
     font-family: inherit;
   }
 
+  body {
+    margin: auto;
+    max-width: 1400px;
+    min-height: 100vh;
+    padding: 4px;
+  
+  }
+  
