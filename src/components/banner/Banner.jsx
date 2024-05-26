@@ -1,4 +1,4 @@
-import BannerItem from "./BannerItem"
+import BannerItem from "../postItem/PostItem"
 
 export default function Banner(){
    return(

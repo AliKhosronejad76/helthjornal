@@ -1,4 +1,4 @@
-export default function BannerItem({img}){
+export default function PostItem({img}){
     return(
         <div className="rounded-lg px-3 my-2 max-h-[230px] min-h-[230px]">
             <img src={img} className="w-full h-full object-cover rounded-lg"/>
