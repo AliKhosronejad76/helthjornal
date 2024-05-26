@@ -3,7 +3,7 @@ import { menuItems } from "../../../../public/data"
 
 export default function  Menu(){
     return(
-        <ul className="invisible hidden lg:visible lg:flex items-center text-sm ">
+        <ul className="invisible hidden lg:visible lg:flex items-center text-sm bakh-reg">
             {menuItems.map((item, i)=><ListItem key={i} data={item}/>)}
         </ul>
     )

@@ -6,7 +6,7 @@ import Item from "./Item"
 export default function Social(){
     return(
         <div className="w-[100%] lg:w-[33%]  flex flex-col items-start lg:items-center">
-            <h2 className="pb-6 pt-4 text-lg lg:text-xl">ما را دنیال کنید</h2>
+            <h2 className="pb-6 pt-4 text-lg lg:text-2xl bakh-fat">ما را دنیال کنید</h2>
 
             <div className="flex items-center ">
                 <Item color={"#262626"}>

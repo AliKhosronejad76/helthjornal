@@ -4,7 +4,7 @@ export default function HomeContent(){
     return(
         <div className=" flex flex-col px-6 lg:px-[0px] lg:flex-row justify-between">
                 <div className="w-[100%] lg:w-[70%] ">
-                    <h1 className="py-4 px-2 text-green-500 text-xl">جدید ترین مطالب</h1>  
+                    <h1 className="py-4 px-2 text-green-500 text-2xl bakh-fat">جدید ترین مطالب</h1>  
                     <Posts/>
                     <Posts/>        
                     <Posts/>        
