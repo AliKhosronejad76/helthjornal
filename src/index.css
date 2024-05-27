@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 a {
     text-decoration: inherit;
@@ -26,3 +27,10 @@ a {
   
   }
   
+  .my-transition{
+    /* transition:max-height  ease-out; */
+    transition: max-height 1s ease-in-out; 
+    -o-transition:max-height 1s ease-in-out;
+    -moz-transition:max-height 1s ease-in-out;
+   -webkit-transition: max-height 1s ease-in-out;
+  }
