@@ -1,5 +1,5 @@
 import ListItem from "./ListItem"
-import { menuItems } from "../../../../public/data"
+import { menuItems } from "../../../data"
 
 export default function  Menu(){
     return(
