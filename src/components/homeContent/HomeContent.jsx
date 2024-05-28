@@ -1,5 +1,5 @@
 import Posts from "./Posts"
-import List from "./aside/List"
+import List from "../aside/List"
 export default function HomeContent(){
     return(
         <div className=" flex flex-col px-6 lg:px-[0px] lg:flex-row justify-between">
@@ -22,7 +22,7 @@ export default function HomeContent(){
                     <List/>
                     <List/>
 
-                </aside>
+                 </aside>
         </div>
     )
 }
