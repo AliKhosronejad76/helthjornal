@@ -14,7 +14,7 @@ export default function App(){
         <BrowserRouter>
           <Layout drawer={drawer} setDrawer={setDrawer}>
             <div className="px-1 md:px-4 lg:px-16">
-             <Router />
+              <Router />
             </div>
           </Layout>
         </BrowserRouter>
