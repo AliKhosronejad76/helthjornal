@@ -4,13 +4,13 @@ import Share from "../components/share/Share"
 
 export default function ArticlePage(){
     return(
-        <div className="flex">
-            <div className="w-[65%]">
+        <div className="flex flex-col lg:flex-row">
+            <div className="w-[100%] lg:w-[65%]">
                 <Share/>
                 <CommentSection/>
             </div>
 
-            <aside className="w-[35%]">
+            <aside className="w-[100%] lg:w-[35%]">
                 <List/>
                 <List/>
                 <List/>

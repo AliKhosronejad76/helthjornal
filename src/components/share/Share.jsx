@@ -7,7 +7,7 @@ import { FaWhatsapp } from "react-icons/fa6"
 export default function Share(){
     return(
         <div className="flex flex-col items-center">
-            <h1 className="bakh-medium">این مقاله را برای دوستان خود ارسال کنید</h1>
+            <h1 className="text-base lg:text-md bakh-bold lg:bakh-medium">این مقاله را برای دوستان خود ارسال کنید</h1>
 
             <div className="flex items-center mb-2 mt-6">
                 <Item icon={<FaLinkedinIn/>} bgColor={"#137fd6"}/>
